@@ -7,6 +7,7 @@ import { GeographyComponent } from './geography/geography.component';
 import { LandmarksComponent } from './landmarks/landmarks.component';
 import { ActivitiesComponent } from './activities/activities.component';
 
+
 const routes: Routes = [
   
   { path: '', component: JmHomeComponent },
