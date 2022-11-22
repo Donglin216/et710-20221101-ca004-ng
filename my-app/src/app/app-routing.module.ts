@@ -13,6 +13,7 @@ const routes: Routes = [
   { path: '', component: JmHomeComponent },
   { path: 'geography', component: GeographyComponent },
   { path: 'landmarks', component: LandmarksComponent },
+  { path: 'activities', component: ActivitiesComponent },
   
   
   ];
