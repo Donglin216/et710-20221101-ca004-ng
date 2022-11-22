@@ -11,6 +11,8 @@ import { DemographicComponent } from './demographic/demographic.component';
 import { ParksComponent } from './parks/parks.component';
 import { SchoolsComponent } from './schools/schools.component';
 import { ShoppingComponent } from './shopping/shopping.component';
+import { TransportationComponent } from './transportation/transportation.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 const routes: Routes = [
@@ -24,7 +26,8 @@ const routes: Routes = [
   { path: 'parks', component: ParksComponent },
   { path: 'schools', component: SchoolsComponent },
   { path: 'shopping', component: ShoppingComponent },
-  
+  { path: 'transportation', component: TransportationComponent },
+  { path: 'contact', component: ContactComponent },
   
   
   ];

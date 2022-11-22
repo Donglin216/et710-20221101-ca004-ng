@@ -15,6 +15,8 @@ import { DemographicComponent } from './demographic/demographic.component';
 import { ParksComponent } from './parks/parks.component';
 import { SchoolsComponent } from './schools/schools.component';
 import { ShoppingComponent } from './shopping/shopping.component';
+import { TransportationComponent } from './transportation/transportation.component';
+import { ContactComponent } from './contact/contact.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,6 +32,8 @@ import { ShoppingComponent } from './shopping/shopping.component';
     ParksComponent,
     SchoolsComponent,
     ShoppingComponent,
+    TransportationComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
