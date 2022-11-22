@@ -10,7 +10,11 @@ import { JmHomeComponent } from './jm-home/jm-home.component';
 import { GeographyComponent } from './geography/geography.component';
 import { LandmarksComponent } from './landmarks/landmarks.component';
 import { ActivitiesComponent } from './activities/activities.component';
-
+import { HousingComponent } from './housing/housing.component';
+import { DemographicComponent } from './demographic/demographic.component';
+import { ParksComponent } from './parks/parks.component';
+import { SchoolsComponent } from './schools/schools.component';
+import { ShoppingComponent } from './shopping/shopping.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +24,12 @@ import { ActivitiesComponent } from './activities/activities.component';
     JmHomeComponent,
     GeographyComponent,
     LandmarksComponent,
-    ActivitiesComponent
+    ActivitiesComponent,
+    HousingComponent,
+    DemographicComponent,
+    ParksComponent,
+    SchoolsComponent,
+    ShoppingComponent,
   ],
   imports: [
     BrowserModule,
